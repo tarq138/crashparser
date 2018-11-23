@@ -37,7 +37,7 @@ def main(argv):
                             Exception = True
                             findstr = ''
             ans += ']}'
-            json.dump(json.loads(ans), OutputFile, indent=2, sort_keys=True)
+            json.dump(json.loads(ans), OutputFile, indent=4, sort_keys=True)
     except IndexError:
         print("Please, input name log file and name output file")
 
