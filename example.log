@@ -1,1 +1,14 @@
-[2018-11-23 00:03:05] hostname 123456 USA:Anonymous:Anonymous96B50456767E74F51FD6AD2730C24133 http-nio-8080-exec-61 INFO  Got successful response Response: {"filaname":"logFileName","exceptions":[{"line":"integer_with_the_line_where_exception_occurred","type":"example:ValueError","message":"message of the exception"}]}
+Traceback (most recent call last):
+  File "C:/Users/Vladislav/PycharmProjects/crashparser/1.py", line 3, in <module>
+    raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
+Exception: x should not exceed 5. The value of x was: 10
+
+Traceback (most recent call last):
+  File "C:/Users/Vladislav/PycharmProjects/crashparser/1.py", line 1, in <module>
+    print(open("1.txt", "r"))
+IOError: [Errno 2] No such file or directory: '1.txt'
+
+Traceback (most recent call last):
+  File "C:/Users/Vladislav/PycharmProjects/crashparser/1.py", line 1, in <module>
+    print (1/0)
+ZeroDivisionError: integer division or modulo by zero
