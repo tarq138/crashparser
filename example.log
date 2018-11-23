@@ -1,0 +1,1 @@
+[2018-11-23 00:03:05] hostname 123456 USA:Anonymous:Anonymous96B50456767E74F51FD6AD2730C24133 http-nio-8080-exec-61 INFO  Got successful response Response: {"filaname":"logFileName","exceptions":[{"line":"integer_with_the_line_where_exception_occurred","type":"example:ValueError","message":"message of the exception"}]}
